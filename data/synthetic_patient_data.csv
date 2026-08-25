@@ -1,0 +1,31 @@
+id,text,intent,symptoms,body_part,duration,severity,urgency,suggested_department
+1,"I'm having severe chest pain and I can't breathe properly, it started 10 minutes ago",emergency,chest pain; difficulty breathing,chest,10 minutes,severe,high,Emergency / Cardiology
+2,"My father collapsed suddenly and is not responding, please send help",emergency,loss of consciousness; unresponsive,,just now,severe,high,Emergency
+3,"There was a road accident, the person is bleeding heavily from the leg",emergency,heavy bleeding; trauma,leg,just now,severe,high,Trauma / Emergency
+4,"I have had a mild headache since this morning, nothing too bad",routine_consultation,headache,head,since morning,mild,low,General Medicine
+5,"I want to book a checkup for my knee, it's been hurting on and off for 2 weeks",routine_consultation,knee pain,knee,2 weeks,moderate,low,Orthopedics
+6,"I don't feel well since yesterday, just tired and a bit feverish",routine_consultation,fatigue; mild fever,,since yesterday,mild,low,General Medicine
+7,I had surgery last month for appendicitis and need a follow-up appointment,follow_up,,abdomen,1 month post-surgery,none,low,General Surgery
+8,My stitches from last week's operation feel itchy and a little red around the edges,follow_up,itching; redness,surgical site,"since operation, 1 week",mild,medium,General Surgery
+9,"I need a refill for my blood pressure medication, I'm running out tomorrow",medication_refill,,,ongoing,none,low,Pharmacy / General Medicine
+10,"Can I get my insulin prescription renewed, I have diabetes",medication_refill,,,ongoing,none,low,Endocrinology
+11,"I've been feeling extremely anxious and having panic attacks for the past week, I can't sleep",routine_consultation,anxiety; panic attacks; insomnia,,1 week,moderate,medium,Psychiatry / Mental Health
+12,"I feel very low and hopeless lately, I don't want to talk to anyone",routine_consultation,low mood; social withdrawal,,not specified,moderate,medium,Psychiatry / Mental Health
+13,My 4 year old son has had a high fever and rash for the last 2 days,routine_consultation,high fever; rash,skin,2 days,moderate,medium,Pediatrics
+14,My baby won't stop crying and hasn't eaten since this morning,routine_consultation,excessive crying; loss of appetite,,since morning,moderate,medium,Pediatrics
+15,I'm 7 months pregnant and feeling sharp pain in my lower abdomen,routine_consultation,sharp abdominal pain,lower abdomen,not specified,moderate,high,Obstetrics / Gynecology
+16,"I'm due for my monthly prenatal checkup next week, want to schedule it",routine_consultation,,,not applicable,none,low,Obstetrics / Gynecology
+17,My grandmother is 82 and has been confused and disoriented since this afternoon,emergency,confusion; disorientation,,since afternoon,severe,high,Emergency / Neurology
+18,I have a burning sensation while urinating for the past 3 days,routine_consultation,burning urination,urinary tract,3 days,mild,medium,Urology / General Medicine
+19,I twisted my ankle playing football yesterday and it's swollen now,routine_consultation,swelling; ankle pain,ankle,1 day,moderate,medium,Orthopedics
+20,I've had a persistent cough and shortness of breath for 3 weeks now,routine_consultation,persistent cough; shortness of breath,lungs,3 weeks,moderate,medium,Pulmonology
+21,Sudden numbness on the left side of my face and I can't move my left arm properly,emergency,facial numbness; arm weakness,face and arm,just started,severe,high,Neurology / Emergency (possible stroke)
+22,I want to schedule a routine dental cleaning,routine_consultation,,teeth,not applicable,none,low,Dentistry
+23,My eye has been red and itchy with some discharge for two days,routine_consultation,redness; itching; discharge,eye,2 days,mild,low,Ophthalmology
+24,"I accidentally swallowed a small piece of glass, I'm not sure what to do",emergency,ingestion of foreign object,throat / digestive tract,just now,severe,high,Emergency
+25,hi need dr appointment for skin allergy itching red spots since 4 days,routine_consultation,itching; red spots,skin,4 days,mild,low,Dermatology
+26,wat r ur timings for cardiology dept,information_request,,,,none,low,Cardiology (info only)
+27,Can you tell me if Dr. Sharma is available tomorrow evening,information_request,,,,none,low,Scheduling
+28,"I need my blood test reports from last week, how do I get them",information_request,,,,none,low,Lab / Records
+29,"chest me thoda dard ho raha hai since morning, not too much",routine_consultation,mild chest discomfort,chest,since morning,mild,medium,Cardiology / General Medicine
+30,"I've vomited 5 times today and can't keep any food down, feeling very weak",routine_consultation,vomiting; weakness,stomach,today,moderate,high,Gastroenterology / Emergency
